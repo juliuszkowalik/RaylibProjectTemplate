@@ -1,7 +1,9 @@
 #pragma once
 
+#include <raylib.h>
+
 namespace Core {
 
-	void PrintHelloWorld();
+	void Run();
 
 }
