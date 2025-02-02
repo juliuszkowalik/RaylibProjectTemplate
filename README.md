@@ -20,3 +20,6 @@ The `Scripts/` directory contains build scripts for Windows, and the `Vendor/` d
 ## License
 - MIT LICENSE for this repository (see `LICENSE.txt` for more details)
 - Premake is licensed under BSD 3-Clause (see included LICENSE.txt file for more details)
+
+## PS
+Shout out to [The Cherno](https://github.com/thecherno) for provading template to this template
