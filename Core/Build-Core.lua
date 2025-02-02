@@ -11,6 +11,7 @@ project "Core"
    {
       "Source",
 
+         -- Include Raylib
          "../Vendor/raylib/include"
    }
 
