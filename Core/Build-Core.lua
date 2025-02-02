@@ -9,7 +9,19 @@ project "Core"
 
    includedirs
    {
-      "Source"
+      "Source",
+
+         "../Vendor/raylib/include"
+   }
+
+   links
+   {
+      "raylib"
+   }
+
+   libdirs
+   {
+      "../Vendor/raylib/lib"
    }
 
    targetdir ("../Binaries/" .. OutputDir .. "/%{prj.name}")
@@ -17,7 +29,7 @@ project "Core"
 
    filter "system:windows"
        systemversion "latest"
-       defines { }
+       defines { "TP_PLATFORM_WINDOWS" }
 
    filter "configurations:Debug"
        defines { "DEBUG" }
