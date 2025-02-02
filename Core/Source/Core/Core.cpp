@@ -1,13 +1,20 @@
 #include "Core.h"
 
-#include <iostream>
-
 namespace Core {
 
-	void PrintHelloWorld()
+	void Run()
 	{
-		std::cout << "Hello World!\n";
-		std::cin.get();
+		InitWindow(GetScreenWidth(), GetScreenHeight(), "Template Window");
+		SetTargetFPS(GetMonitorRefreshRate(GetCurrentMonitor()));
+
+		while(!WindowShouldClose())
+		{
+			BeginDrawing();
+			ClearBackground(BLACK);
+			EndDrawing();
+		}
+
+		CloseWindow();
 	}
 
 }
