@@ -1,4 +1,4 @@
-# C++ Project Starter Template
+# Raylib Project Starter Template
 
 This is a little quick-start project template for C++ projects which utilise a Core/App project architecture. There are two included projects - one called _Core_, and one called _App_. [Premake](https://github.com/premake/premake-core) is used to generate project files.
 
