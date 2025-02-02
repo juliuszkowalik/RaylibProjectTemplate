@@ -1,6 +1,6 @@
 # Raylib Project Starter Template
 
-This is a little quick-start project template for Raylib projects which utilise a Core/App project architecture. There are two included projects - one called _Core_, and one called _App_. [Premake](https://github.com/premake/premake-core) is used to generate project files.
+This is a little quick-start project template for [Raylib](https://github.com/raysan5/raylib) projects which utilise a Core/App project architecture. There are two included projects - one called _Core_, and one called _App_. [Premake](https://github.com/premake/premake-core) is used to generate project files.
 
 Core builds into a static library and is meant to contain common code intended for use in multiple applications. App builds into an executable and links the Core static library, as well as provides an include path to Core's code.
 
@@ -21,5 +21,5 @@ The `Scripts/` directory contains build scripts for Windows, and the `Vendor/` d
 - MIT LICENSE for this repository (see `LICENSE.txt` for more details)
 - Premake is licensed under BSD 3-Clause (see included LICENSE.txt file for more details)
 
-## PS
-Shout out to [The Cherno](https://github.com/thecherno) for provading template to this template
+## PS.
+Shout out to [The Cherno](https://github.com/thecherno) for providing template to this template
